@@ -1,0 +1,35 @@
+.cta {
+padding: 180px 0;
+
+
+background: linear-gradient(
+    180deg,
+    $dark 10.41%,
+    rgba(36,43,51,0) 50.52%,
+    $dark 90.1%,
+),
+linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url('./../img/cta/cta-bg.jpg'), #c4c4c4;
+}
+
+.cta-title{
+margin-bottom: 17px;
+}
+
+.cta-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+
+.cta-row-text{
+    line-height: 1.5;
+
+    
+
+}
+
+.cta-row-form{
+
+
+}

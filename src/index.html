@@ -1,13 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
-  </head>
-  <body>
-    <h1>Landing Page</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miami</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <!--<link rel="stylesheet" href="./styles/main.scss"> -->
+  <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+  <header class="header none1">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top-row">
+          <a href="#!">
+            <img src="./img/logo.svg" alt="logo LoftHouse" />
+          </a>
+          <div class="header-nav">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li><a href="#!">About us</a></li>
+                <li><a href="#!">Find a property</a></li>
+                <li><a href="#!">Find a service</a></li>
+                <li><a href="#!">Insight & Opinion</a></li>
+                <li><a href="#!">Contact us</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="header-title">
+        Residential complex <br />
+        in the historical center
+        <a href="#benefits">
+          <img class="header-title-icon" src="./img/header/mouse-header.svg" alt="scroll down to benefits" />
+        </a>
+      </h1>
+    </div>
+    <div class="header-bottom">
+      <div class="text-right">
+        <a class="info info--map" href="#section-map">46 Margaret Street, London</a>
+      </div>
+
+      <a class="info info--tel" href="tel:+4501245638509">+45 (0) 12 4563 8509</a>
+    </div>
+  </header>
+  <main>
+    <section class="benefits none1">
+      <h2 class="visually-hidden">Benefits of the residential complex</h2>
+      <div class="container container-sm">
+        <div class="benefits-row">
+          <div class="benefits-item">
+            <img class="benefits-item-img" src="./img/benefits/bench.svg" alt="an icon of bench in a park" />
+            <p class="benefits-item-text">
+              Nearby historical parks&nbsp;and&nbsp;squares
+            </p>
+          </div>
+
+          <div class="benefits-item">
+            <img class="benefits-item-img" src="./img/benefits/building.svg" alt="an icon of building" />
+            <p class="benefits-item-text">Fully furnished</p>
+          </div>
+
+          <div class="benefits-item">
+            <img class="benefits-item-img" src="./img/benefits/fountain.svg" alt="an icon of a fountain" />
+            <p class="benefits-item-text">10 fountains on the territory</p>
+          </div>
+
+          <div class="benefits-item">
+            <img class="benefits-item-img" src="./img/benefits/bicycle.svg" alt="an icon of a bicycle" />
+            <p class="benefits-item-text">6 kilometers of bicycle path</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="apartments none1">
+      <div class="container">
+        <div class="apartments-title">
+          <h2 class="title-2">Our apartments</h2>
+        </div>
+
+        <div class="apartments-cards">
+          <a href="#!" class="card">
+            <img class="card-img" src="./img/cards/01.jpg" alt="Penthouse “Loft Olympus”" />
+            <h3 class="card-title">Penthouse “Loft Olympus”</h3>
+          </a>
+          <a href="#!" class="card">
+            <img class="card-img" src="./img/cards/02.jpg" alt="Apartments “Nice Loft”" />
+            <h3 class="card-title">Apartments “Nice Loft”</h3>
+          </a><a href="#!" class="card">
+            <img class="card-img" src="./img/cards/03.jpg" alt="Apartments “Loft Studio”" />
+            <h3 class="card-title">Apartments “Loft Studio”</h3>
+          </a><a href="#!" class="card">
+            <img class="card-img" src="./img/cards/04.jpg" alt="Loft apartment “Prestige”" />
+            <h3 class="card-title">Loft apartment “Prestige”</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="cta none1">
+      <div class="container">
+        <div class="cta-title">
+          <h2 class="title-2">Would you like to see it?</h2>
+        </div>
+        <div class="cta-row">
+          <div class="cta-row-text">
+            <p>LCD LoftHouse is a business class project located in the city center, on 221B Baker Street. The complex
+              offers its
+              residents apartments with the area from 40 to 170 sq. m. The building will have three sections with 56
+              apartments in
+              total.</p>
+          </div>
+
+          <form action="" class="cta-form form">
+            <input type="text" class="form-input" placeholder="Your name">
+            <input type="text" class="form-input" placeholder="Your phone">
+            <p class="form-privacy">*We don't share your information with anyone. <br>And we do not store your number in
+              the database.</p>
+            <button type="submit" class="form-btn">Check it out</button>
+          </form>
+
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="video none1">
+      <h2 class="visually-hidden">Video about residential complex</h2>
+      <div class="container">
+        <a href="https://www.youtube.com/watch?v=mh927SS0SRs" class="video-link">
+          <img src="./img/video/play-button.svg" alt="" class="video-icon">
+          <img src="./img/video/video-img.jpg" alt="" class="video-img">
+        </a>
+      </div>
+    </section>
+    <section class="section-map none1">
+      <div class="container">
+        <div class="section-map-title">
+          <h2 class="title-2">The district on the map</h2>
+        </div>
+        <div class="section-map-map">
+          <div class="map" id="map">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback none1">
+      <div class="container">
+        <div class="feedback-title">
+          <h2 class="title-2">Do you have questions?</h2>
+        </div>
+        <form class="feedback-form">
+          <p class="form-privacy">*We don't share your information with anyone. <br>And we do not store your number in
+            the
+            database.</p>
+          <input type="text" class="form-input" placeholder="Your name">
+          <input type="text" class="form-input" placeholder="Your phone">
+
+          <button type="submit" class="form-btn">Check it out</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-logo"><a href="#!">
+            <img src="./img/logo.svg" alt="logo LoftHouse" />
+          </a>
+        </div>
+        <div class="footer-nav">
+          <nav>
+            <ul class="footer-nav-list">
+              <li><a href="#!">About us</a></li>
+              <li><a href="#!">Find a property</a></li>
+              <li><a href="#!">Find a service</a></li>
+              <li><a href="#!">Insight & Opinion</a></li>
+              <li><a href="#!">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li><a href="#!">Settlement and relocation</a></li>
+              <li><a href="#!">Services</a></li>
+              <li><a href="#!">Environmental sustainability</a></li>
+              <li><a href="#!">Investment opportunities</a></li>
+              <li><a href="#!">Loyalty program</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-address">
+          <ul class="footer-nav-list">
+            <li>Address: 46 Margaret St, London</li>
+            <li>Tel: <a href="tel:+4501245638509">+45 (0) 12 4563 8509</a></li>
+            <li>Working hours: 10 a.m. to 5 p.m.</li>
+            <li>E-mail: <a class="link-bold" href="mailto:nsig.vf@gmail.com">nsig.vf@gmail.com</a></li>
+          </ul>
+          <ul class="footer-socials">
+            <li>
+              <a href="!#"><img src="./img/socials/facebook.svg" alt=""></a>
+            </li>
+            <li>
+              <a href="!#"><img src="./img/socials/instagram.svg" alt=""></a>
+            </li>
+            <li>
+              <a href="!#"><img src="./img/socials/vk.svg" alt=""></a>
+            </li>
+            <li>
+              <a href="!#"><img src="./img/socials/youtube.svg" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
